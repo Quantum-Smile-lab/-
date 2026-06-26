@@ -482,7 +482,7 @@ body::before {
 
 .chapter-name {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 15px; font-weight: 600;
+  font-size: 22px; font-weight: 500;
   color: var(--text);
 }
 
@@ -491,14 +491,14 @@ body::before {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  width: 100%;
+  width: 79%;
 }
 
 .type-card {
   background: linear-gradient(145deg, #0d1f5c, var(--card));
   border: 1px solid rgba(255,215,0,0.2);
   border-radius: 20px;
-  padding: 36px 20px;
+  padding: 7px 0px;
   cursor: pointer;
   transition: all 0.3s ease;
   text-align: center;
@@ -919,7 +919,7 @@ body::before {
 }
 
 .countdown-label {
-  font-family: cursive;
+  font-family: 'Cairo';
   font-size: 17px;
   font-weight: 600;
   color: var(--text);
